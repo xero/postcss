@@ -220,6 +220,7 @@ See also [`oldie`] plugins pack.
 * [`postcss-nested`] unwraps nested rules.
 * [`postcss-nested-props`] unwraps nested properties.
 * [`postcss-nested-vars`] supports nested Sass-style variables.
+* [`postcss-nest`] DRY optomizer for property-level factoring, block-level merging, and nesting of pseudo-classes/elements.
 * [`postcss-pseudo-class-any-button`] adds `:any-button` pseudo-class
 for targeting all button elements.
 * [`postcss-pseudo-class-enter`] transforms `:enter` into `:hover` and `:focus`.
@@ -285,7 +286,7 @@ for targeting all button elements.
 * [`colorguard`] helps maintain a consistent color palette.
 * [`postcss-get-color`] get the prominent colors from an image.
 * [`postcss-randomcolor`] supports function to use random color.
-
+* [`postcss-color-golf`] minifies CSS colors with shortest equivalents.
 
 ## Images and Fonts
 
@@ -960,3 +961,5 @@ See also plugins in modular minifier [`cssnano`].
 [`postcss-easy-import`]:                  https://github.com/TrySound/postcss-easy-import
 [`postcss-spring-easing`]:                https://github.com/okikio/postcss-spring-easing
 [`postcss-plugin-ignore-file`]:           https://github.com/RiadhAdrani/postcss-plugin-ignore-file
+[`postcss-nest`]:                         https://github.com/xero/postcss-nest
+[`postcss-color-golf`]:                   https://github.com/xero/postcss-color-golf
